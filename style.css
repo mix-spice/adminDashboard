@@ -179,15 +179,7 @@ p {
 
 }
 
-.top .infoIcons{
-    grid-column: 2 / 3;
-    position: relative;
-   
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-gap: 10px;
-   
-}
+
 
 
 .searchBar .infoIconsGrid1{
@@ -248,6 +240,19 @@ form {
     width: 30px;
     height: 30px;  
   }
+
+
+  .top .infoIcons{
+    grid-column: 2 / 3;
+    position: relative;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-top: 10px;
+    
+   
+   
+}
   
   .custom-button2 {
     background-color: transparent;
